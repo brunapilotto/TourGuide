@@ -23,3 +23,30 @@ header {
     color: #1F7C9B;
     margin-bottom: 40px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+p {
+    color: #1F7C9B;
+    font-weight: bold;
+}
+
+h1 + p {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+}
