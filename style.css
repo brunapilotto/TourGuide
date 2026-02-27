@@ -39,7 +39,18 @@ h1 {
     font-weight: 600;
 }
 
-#introduction {
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#introduction, #content {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -64,8 +75,16 @@ p {
     font-weight: bold;
 }
 
-h1 + p {
+h1 + p, h2 + p, #content .card-travel p {
     color: black;
     font-size: 18px;
     font-weight: normal;
+}
+
+#content h2 + p, #content h3 + p {
+    margin-bottom: 48px;
+}
+
+#content .card-travel p {
+    margin-top: 4px;
 }
