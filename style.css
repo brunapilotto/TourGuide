@@ -88,3 +88,7 @@ h1 + p, h2 + p, #content .card-travel p {
 #content .card-travel p {
     margin-top: 4px;
 }
+
+footer {
+    text-align: center;
+}
