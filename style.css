@@ -70,6 +70,22 @@ h3 {
     text-align: center;
 }
 
+#content .card-travel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#content .card-travel-link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.card-travel-link img {
+    width: 18px;
+}
+
 p {
     color: #1F7C9B;
     font-weight: bold;
@@ -81,14 +97,11 @@ h1 + p, h2 + p, #content .card-travel p {
     font-weight: normal;
 }
 
-#content h2 + p, #content h3 + p {
-    margin-bottom: 48px;
-}
-
-#content .card-travel p {
-    margin-top: 4px;
+.card-travel + .card-travel {
+    margin-top: 48px;
 }
 
 footer {
     text-align: center;
+    margin-top: 48px;
 }
